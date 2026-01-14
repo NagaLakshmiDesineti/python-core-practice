@@ -1,4 +1,5 @@
 num=int(input("enter a number:"))
+num=abs(num)
 sum_digits=0
 while num>0:
   sum_digits+=num%10
